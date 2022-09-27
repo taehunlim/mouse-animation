@@ -12,9 +12,9 @@ const styles = css`
 
    html,
    body {
-      overflow: hidden;
       height: 100%;
 
+      background-color: black;
       @supports (-webkit-touch-callout: none) {
          height: -webkit-fill-available;
       }
